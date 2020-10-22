@@ -1,6 +1,3 @@
-// This is a sample test
-// Delete it when you have real tests
-
 extern "C" {
 #include <stdio.h>
 #include <stdarg.h>
