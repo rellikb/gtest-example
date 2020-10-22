@@ -2,10 +2,16 @@
 #include "stdio.h"
 #include "stdbool.h"
 
+// Functions we are mocking.
 bool isOkayToDoMath() {
   return true;
 }
 
+bool isGreater(int a, int b) {
+  return a > b;
+}
+
+// Functions we are testing.
 int add(int a, int b) {
   return a + b;
 }
@@ -24,4 +30,12 @@ int conditional_add(int a, int b) {
     return -1;
   }
   return a + b;
+}
+
+int conditional_subtract(int a, int b) {
+  if (!isGreater(a, b)) {
+    return -1;
+  }
+
+  return a - b;
 }
