@@ -1,5 +1,5 @@
 # gtest-example
-Using Google test framework to test C code.
+Using Google test framework and Cutie to test C code.
 
 # Build steps
 mkdir build\
