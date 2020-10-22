@@ -1,5 +1,5 @@
-#ifndef _WIDGET_H_
-#define _WIDGET_H_
+#ifndef _MYMATH_H_
+#define _MYMATH_H_
 #include "stdbool.h"
 
 bool isOkayToDoMath();
